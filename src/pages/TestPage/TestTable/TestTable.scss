@@ -1,0 +1,18 @@
+.tool-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-container {
+    padding: 0px 30px 30px;
+}
+
+.table-container .pagination {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: end;
+}
+
+.test-table > * {
+    padding: 30px;
+}

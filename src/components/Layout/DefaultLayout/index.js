@@ -1,13 +1,16 @@
+import './DefaultLayout.scss';
 import Header from './Header';
 import Sidebar from './Sidebar';
 
 function DefaultLayout({ children }) {
     return (
-        <div>
-            <Header />
-            <div>
+        <div className="layout-wraper">
+            <div className="layout-sidebar">
                 <Sidebar />
-                <div className="content">{children}</div>
+            </div>
+            <div className="layout-content">
+                <Header />
+                <div className="container">{children}</div>
             </div>
         </div>
     );
