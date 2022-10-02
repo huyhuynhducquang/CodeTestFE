@@ -1,0 +1,14 @@
+.table__cell {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 769px) {
+    .table__cell {
+        display: none;
+    }
+    .table__cell--main {
+        display: flex;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    }
+}
